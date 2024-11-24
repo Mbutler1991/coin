@@ -1,13 +1,29 @@
+import { useEffect } from 'react';
+
 const Hero = () => {
+  useEffect(() => {
+    const container = document.querySelector('.dollar-container');
+
+    for (let i = 0; i < 50; i++) {
+      const img = document.createElement('img');
+      img.src = '/images/dollar.png'; // Correctly reference the public folder
+      img.classList.add('dollar');
+
+      // Add random horizontal positioning and animation delays
+      img.style.left = `${Math.random() * 100}vw`; // Random horizontal position
+      img.style.animationDelay = `${Math.random() * 5}s`; // Random delay
+      img.style.animationDuration = `${3 + Math.random() * 2}s`;
+      img.style.width = '360px'; // Make notes three times larger
+      img.style.height = 'auto';
+
+      container.appendChild(img);
+    }
+  }, []);
+
   return (
-    <div className="bg-gray-900 text-white py-20 px-6 text-center animate-fade-in">
-      <h1 className="text-5xl font-bold mb-4">Welcome to LunaCoin</h1>
-      <p className="text-lg mb-6">
-        The cryptocurrency inspired by the viral sensation, Luna the Cat.
-      </p>
-      <button className="bg-purple-600 hover:bg-purple-700 text-white font-semibold px-6 py-3 rounded transition duration-300 ease-in-out transform hover:scale-105">
-        Learn More
-      </button>
+    <div className="relative w-full h-screen bg-gray-900 overflow-hidden">
+      <div className="dollar-container absolute top-0 left-0 w-full h-full overflow-hidden"></div>
+      <h1 className="welcome-text">Money Printer Goes BRRR</h1>
     </div>
   );
 };
