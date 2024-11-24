@@ -45,3 +45,94 @@
   opacity: 0;
 }
 
+.floating-button {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.holo-text {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #ff007a, #00ffff, #ff007a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: holographic 3s infinite;
+}
+
+@keyframes holographic {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+}
+
+.neon-button {
+  color: white;
+  background: black;
+  border: 2px solid #00ff99;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.neon-button:hover {
+  box-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99;
+  color: #00ff99;
+}
+
+/* Container for centering */
+.coin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevent overflow */
+  position: relative;
+  cursor: grab;
+}
+
+/* Coin style */
+.coin {
+  width: 150px; /* Adjust size */
+  height: 150px; /* Adjust size */
+  border-radius: 50%; /* Make it a circle */
+  background: linear-gradient(145deg, #ffc700, #ff9900); /* Gold gradient */
+  border: 5px solid #ffd700; /* Outer border for 3D effect */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+}
+
+/* Spinning animation */
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg); /* Starting position */
+  }
+  100% {
+    transform: rotateY(360deg); /* Full spin */
+  }
+}
