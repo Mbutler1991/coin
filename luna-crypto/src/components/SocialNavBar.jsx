@@ -5,7 +5,7 @@ const SocialNavbar = () => {
     <div className="flex items-center justify-between w-full p-4 bg-gray-800 text-white fixed top-0 left-0 z-50">
       {/* Buy BRRRcoin Button */}
       <button className="floating-button neon-button px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded">
-        Buy BRRRcoin
+        Buy: $Glitch
       </button>
 
       {/* Social Links */}

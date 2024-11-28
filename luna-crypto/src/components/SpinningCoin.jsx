@@ -66,7 +66,10 @@ const SpinningCoin = () => {
           transform: `rotateY(${rotation}deg)`,
           animation: isDragging ? "none" : `spin 2s linear infinite`,
         }}
-      ></div>
+      >
+        <div className="coin-front"></div>
+        <div className="coin-back"></div>
+      </div>
     </div>
   );
 };
