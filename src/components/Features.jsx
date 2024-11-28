@@ -2,10 +2,7 @@ import SpinningCoin from "./SpinningCoin";
 
 const Features = () => {
   return (
-    <div className="bg-gray-100 py-20 px-6">
-      <h2 className="text-4xl font-bold holo-text text-center mb-8">
-        Why Choose Money Glitch?
-      </h2>
+    <div className=" py-20 px-6" style={{ backgroundColor: '#0088ff' }}>
       <SpinningCoin />
       <br></br>
       <div className="flex flex-col md:flex-row justify-center gap-6">

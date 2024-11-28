@@ -1,6 +1,6 @@
 const Legacy = () => {
   return (
-    <div className="mt-12 bg-gray-900">
+    <div className="bg-gray-900">
       <br></br>
       <h2 className="text-4xl font-bold holo-text text-center mb-8">
         The Glitch Legacy
