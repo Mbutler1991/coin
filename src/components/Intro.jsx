@@ -1,15 +1,15 @@
 const Intro = () => {
   return (
-    <div className="mt-12">
+    <div className=" bg-gray-900">
       <div className="flex flex-col md:flex-row justify-center gap-6">
         <div className="w-full md:w-1/4">
           <img
             src="../images/glitchLeft.png"
             alt="Left Image"
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg"
           />
         </div>
-        <div className="w-full md:w-1/2 p-6 bg-gray-900 shadow-lg rounded-lg">
+        <div className="w-full md:w-1/2 p-6rounded-lg">
           <h3 className="text-2xl holo-text-standard font-bold mb-2 text-center">
             The Meme That Changed Lives
           </h3>
@@ -33,7 +33,7 @@ const Intro = () => {
           <img
             src="../images/glitchRight.png"
             alt="Right Image"
-            className="w-full h-auto rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg"
           />
         </div>
       </div>
