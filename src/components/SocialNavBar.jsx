@@ -1,4 +1,5 @@
-import { FaTelegramPlane, FaTwitter, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaTelegramPlane, FaInstagram, FaTiktok } from 'react-icons/fa';
+import {FaXTwitter} from 'react-icons/fa6';
 
 const SocialNavbar = () => {
   return (
@@ -15,7 +16,7 @@ const SocialNavbar = () => {
           href="https://t.me/ItzaMoneyGlitch"
           target="_blank"
           rel="noopener noreferrer"
-          className="icon text-blue-500 hover:text-blue-600"
+          className="icon text-blue-400 hover:text-blue-500"
         >
           <FaTelegramPlane size={30} />
         </a>
@@ -27,7 +28,7 @@ const SocialNavbar = () => {
           rel="noopener noreferrer"
           className="icon text-blue-400 hover:text-blue-500"
         >
-          <FaTwitter size={30} />
+          <FaXTwitter size={30} />
         </a>
 
         {/* Instagram */}
