@@ -12,7 +12,7 @@ const SocialNavbar = () => {
       <div className="flex items-center space-x-4">
         {/* Telegram */}
         <a
-          href="#"
+          href="https://t.me/ItzaMoneyGlitch"
           target="_blank"
           rel="noopener noreferrer"
           className="icon text-blue-500 hover:text-blue-600"
@@ -22,7 +22,7 @@ const SocialNavbar = () => {
 
         {/* X (Twitter) */}
         <a
-          href="#"
+          href="https://x.com/ItzaMoneyGlitch"
           target="_blank"
           rel="noopener noreferrer"
           className="icon text-blue-400 hover:text-blue-500"
