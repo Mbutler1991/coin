@@ -72,7 +72,7 @@ const Magic = () => {
           <p style={{ fontSize: "1.125rem" }}>
             One of the first viral comments under Glitch’s video came from a
             user named @CryptoChick. She posted: “I was broke last week. Saw
-            Glitch, posted the meme, and decided to take a shot at some Solana
+            Glitch, posted the meme, and decided to take a shot at some Avalanche
             NFTs. Flipped for 10x overnight. 4 good fortune is real!” This
             wasn’t an isolated case. TikTokers who followed the trend began
             sharing their stories:
@@ -81,7 +81,7 @@ const Magic = () => {
             $10,000 sweepstake she’d forgotten she entered.</li>
             <li>A college student
             in debt shared the meme, then randomly found an old wallet
-            containing $1,000 worth of Solana they thought they’d lost.</li>
+            containing $1,000 worth of Avalanche they thought they’d lost.</li>
             <li>A struggling musician posted the meme, declaring they’d get a big
             break. Two days later, their TikTok song went viral, and record
             labels started calling.</li>

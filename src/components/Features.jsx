@@ -16,7 +16,7 @@ const Features = () => {
             not create a token to embody his message? That’s when the
             $MONEYGLITCH coin was born—a pure meme coin with no taxes, no
             tricks, and all liquidity permanently burned. It launched on
-            Pump.fun, Solana’s meme coin playground, ensuring a fair and
+            Pump.fun, Avalanche’s meme coin playground, ensuring a fair and
             decentralized debut.<br></br>
             Why It’s Different:<br></br>
             Unlike other meme coins, $MONEYGLITCH doesn’t pretend to offer

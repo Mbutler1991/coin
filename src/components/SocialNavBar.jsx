@@ -17,6 +17,7 @@ const SocialNavbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="icon text-blue-400 hover:text-blue-500"
+          aria-label="Telegram"
         >
           <FaTelegramPlane size={30} />
         </a>
@@ -27,6 +28,7 @@ const SocialNavbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="icon text-blue-400 hover:text-blue-500"
+          aria-label="Twitter"
         >
           <FaXTwitter size={30} />
         </a>
@@ -37,6 +39,7 @@ const SocialNavbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="icon text-pink-500 hover:text-pink-600"
+          aria-label="Instagram"
         >
           <FaInstagram size={30} />
         </a>
@@ -47,6 +50,7 @@ const SocialNavbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="icon text-black hover:text-gray-800"
+          aria-label="TikTok"
         >
           <FaTiktok size={30} />
         </a>
